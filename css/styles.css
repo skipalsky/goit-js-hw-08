@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 1128px;
+}
+.gallery-item {
+  width: 360px;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 0 #ccc;
+}
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-original {
+  border-radius: 15px;
+}
